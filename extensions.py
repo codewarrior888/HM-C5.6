@@ -31,7 +31,7 @@ class Convertor:
         url = f'https://api.apilayer.com/exchangerates_data/convert?to={base}&from={quote}&amount={amount}'
 
         headers = {
-            'apikey': 'GEn0dUZPZc4y8y4HPbohsVDGB2SLEwLq'
+            'apikey': 'APIKEY'
         }
 
         response = requests.request('GET', url, headers=headers)
